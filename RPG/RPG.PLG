@@ -1,0 +1,70 @@
+--------------------Configuration: RPG - Win32 Debug--------------------
+Begining build with project "E:\DevStudio\MyProjects\Rpg\RPG.DSP", at root.
+Active configuration is Win32 (x86) Application (based on Win32 (x86) Application)
+
+Project's tools are:
+			"32-bit C/C++ Compiler for 80x86" with flags "/nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/RPG.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c "
+			"OLE Type Library Maker" with flags "/nologo /D "_DEBUG" /mktyplib203 /o NUL /win32 "
+			"Win32 Resource Compiler" with flags "/l 0x409 /d "_DEBUG" "
+			"Browser Database Maker" with flags "/nologo /o"Debug/RPG.bsc" "
+			"COFF Linker for 80x86" with flags "kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ddraw.lib dxguid.lib dinput8.lib dsound.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/RPG.pdb" /debug /machine:I386 /out:"Debug/RPG.exe" /pdbtype:sept "
+			"Custom Build" with flags ""
+			"<Component 0xa>" with flags ""
+
+Creating temp file "c:\windows\temp\RSP3120.TMP" with contents </nologo /MLd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /Fp"Debug/RPG.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /c 
+"E:\DevStudio\MyProjects\Rpg\AI.cpp"
+"E:\DevStudio\MyProjects\Rpg\CombatStatus.cpp"
+"E:\DevStudio\MyProjects\common\common.cpp"
+"E:\DevStudio\MyProjects\common\commonDX.cpp"
+"E:\DevStudio\MyProjects\Rpg\Control.cpp"
+"E:\DevStudio\MyProjects\Rpg\Dialog.cpp"
+"E:\DevStudio\MyProjects\Rpg\Game45.cpp"
+"E:\DevStudio\MyProjects\Rpg\main.cpp"
+"E:\DevStudio\MyProjects\Rpg\Manager.cpp"
+"E:\DevStudio\MyProjects\Rpg\Map.cpp"
+"E:\DevStudio\MyProjects\common\MusicDevice.cpp"
+"E:\DevStudio\MyProjects\Rpg\MyLogo.cpp"
+"E:\DevStudio\MyProjects\common\Tile.cpp"
+"E:\DevStudio\MyProjects\common\TSprite.cpp"
+"E:\DevStudio\MyProjects\common\Utility.cpp"
+>
+Creating command line "cl.exe @c:\windows\temp\RSP3120.TMP" 
+Creating temp file "c:\windows\temp\RSP3121.TMP" with contents <kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ddraw.lib dxguid.lib dinput8.lib dsound.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/RPG.pdb" /debug /machine:I386 /out:"Debug/RPG.exe" /pdbtype:sept 
+.\Debug\AI.obj
+.\Debug\CombatStatus.obj
+.\Debug\common.obj
+.\Debug\commonDX.obj
+.\Debug\Control.obj
+.\Debug\Dialog.obj
+.\Debug\Game45.obj
+.\Debug\main.obj
+.\Debug\Manager.obj
+.\Debug\Map.obj
+.\Debug\MusicDevice.obj
+.\Debug\MyLogo.obj
+.\Debug\Tile.obj
+.\Debug\TSprite.obj
+.\Debug\Utility.obj>
+Creating command line "link.exe @c:\windows\temp\RSP3121.TMP" 
+Compiling...
+AI.cpp
+CombatStatus.cpp
+common.cpp
+commonDX.cpp
+Control.cpp
+E:\DevStudio\MyProjects\Rpg\Control.cpp(832) : warning C4101: 'fy' : unreferenced local variable
+Dialog.cpp
+Game45.cpp
+main.cpp
+Manager.cpp
+Map.cpp
+MusicDevice.cpp
+MyLogo.cpp
+Tile.cpp
+TSprite.cpp
+Utility.cpp
+Linking...
+
+
+
+RPG.exe - 0 error(s), 1 warning(s)
